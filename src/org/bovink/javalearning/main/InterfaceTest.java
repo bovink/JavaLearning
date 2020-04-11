@@ -1,0 +1,33 @@
+package org.bovink.javalearning.main;
+
+import org.bovink.javalearning.person.Person;
+
+public class InterfaceTest {
+
+	public static void main(String args[]) {
+		System.out.print("Hello World\n");
+		Employee e = new Employee("he") {
+			
+		};
+		Person p = new Person();
+		Object o;
+		Person[] persons = new Person[3];
+		o = persons;
+		o = new int[4];
+		Student s = new Student();
+		Integer i = s.increaseNum(3);
+		System.out.println(i);
+		
+		
+		
+		// 判断p和student是否相等
+		if (p instanceof Student) {
+			System.out.print("p 是 Student");
+		}
+		
+		
+		if (s instanceof Person) {
+			System.out.print("s 是 Person");
+		}
+	}
+}
