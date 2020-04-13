@@ -20,14 +20,15 @@ public class InterfaceTest {
 		
 		
 		
-		// ÅÐ¶ÏpºÍstudentÊÇ·ñÏàµÈ
+		// ï¿½Ð¶ï¿½pï¿½ï¿½studentï¿½Ç·ï¿½ï¿½ï¿½ï¿½
+		// this is from mac
 		if (p instanceof Student) {
-			System.out.print("p ÊÇ Student");
+			System.out.print("p ï¿½ï¿½ Student");
 		}
 		
 		
 		if (s instanceof Person) {
-			System.out.print("s ÊÇ Person");
+			System.out.print("s ï¿½ï¿½ Person");
 		}
 	}
 }
