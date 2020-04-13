@@ -23,12 +23,12 @@ public class InterfaceTest {
 		// 你好
 		// this is from mac
 		if (p instanceof Student) {
-			System.out.print("p �� Student");
+			System.out.print("p 是 Student");
 		}
 		
 		
 		if (s instanceof Person) {
-			System.out.print("s �� Person");
+			System.out.print("s 是 Person");
 		}
 	}
 }
