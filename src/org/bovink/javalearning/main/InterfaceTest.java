@@ -20,7 +20,7 @@ public class InterfaceTest {
 		
 		
 		
-		// �ж�p��student�Ƿ����
+		// 你好
 		// this is from mac
 		if (p instanceof Student) {
 			System.out.print("p �� Student");
