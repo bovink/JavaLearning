@@ -17,6 +17,7 @@ public class Student extends Person {
 	}
 	
 	public Integer increaseNum(Integer i) {
+		System.out.print("a");
 		return i *3; 
 	}
 }
